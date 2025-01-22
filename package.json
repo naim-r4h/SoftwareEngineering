@@ -1,0 +1,22 @@
+{
+  "name": "softwareengineering",
+  "version": "1.0.0",
+  "description": "Summative 1 for Northeastern University",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naim-r4h/SoftwareEngineering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naim-r4h/SoftwareEngineering/issues"
+  },
+  "homepage": "https://github.com/naim-r4h/SoftwareEngineering#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
