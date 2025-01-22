@@ -125,3 +125,19 @@ body {
 .hidden {
   display: none;
 }
+
+ /* 
+    Footer
+  */
+  .footer {
+    margin-top: auto; /* Push footer to bottom */
+    text-align: center;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .footer .heart {
+    color: #ff5f5f;
+  }
+  
