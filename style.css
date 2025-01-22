@@ -2,99 +2,126 @@
   Basic reset and body styling
 */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    /* Use the uploaded image as the background */
-    background: url('assets/sky-background.jpeg') no-repeat center center fixed;
-    background-size: cover; /* Ensures the image covers the entire viewport */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  /* Use the uploaded image as the background */
+  background: url('assets/sky-background.jpeg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* 
-    Header (logo + title)
+  Header (logo + title)
 */
 .header {
-display: flex;
-align-items: center;
-background-color: #007bff;
-color: #fff;
-padding: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
 }
 
 .header .airplane-icon {
-width: 40px;
-height: 40px;
-margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .header h1 {
-font-weight: 600;
-font-size: 1.6rem;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 /* 
-    Container for search
-  */
-  .container {
-    width: 500px;
-    margin: 30px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  /* 
-    Flight form styling
-  */
-  .flight-form {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 10px;
-  }
-  
-  .flight-form label {
-    font-weight: bold;
-  }
-  
-  .flight-form input[type="text"] {
-    flex: 1;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 6px;
-    font-size: 1rem;
-  }
-  
-  .btn-search {
-    background: #007bff;
-    border: none;
-    color: #fff;
-    border-radius: 4px;
-    padding: 8px 12px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-  
-  .btn-search:hover {
-    background: #0056b3;
-  }
+  Container for search
+*/
+.container {
+  width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-  /* 
-    Error message styling
-  */
-  .error {
-    text-align: center;
-    color: #b30000;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+/* 
+  Flight form styling
+*/
+.flight-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.flight-form label {
+  font-weight: bold;
+}
+
+.flight-form input[type="text"] {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 1rem;
+}
+
+.btn-search {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-search:hover {
+  background: #0056b3;
+}
+
+/* 
+  Error message styling
+*/
+.error {
+  text-align: center;
+  color: #b30000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 
+  Flight info container
+*/
+.result-container {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.result-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.info-row {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* 
+  Utility class
+*/
+.hidden {
+  display: none;
+}
