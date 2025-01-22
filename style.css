@@ -88,3 +88,13 @@ font-size: 1.6rem;
   .btn-search:hover {
     background: #0056b3;
   }
+
+  /* 
+    Error message styling
+  */
+  .error {
+    text-align: center;
+    color: #b30000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
