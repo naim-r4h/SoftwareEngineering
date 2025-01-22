@@ -15,7 +15,7 @@
     />
     <h1>Latest Flight Search</h1>
   </header>
-
+  
   <div class="container">
     <form id="flight-form" class="flight-form">
       <label for="flight-number">Enter Flight Number:</label>
@@ -27,10 +27,35 @@
       />
       <button type="submit" class="btn-search">Search</button>
     </form>
-
+    
     <div id="error-message" class="error hidden"></div>
-  </div>  
-  
+
+    <div id="result-container" class="result-container hidden">
+      <h2>Flight Information</h2>
+      <div class="info-row">
+        <strong>Airline:</strong> <span id="airline-name"></span>
+      </div>
+      <div class="info-row">
+        <strong>Flight Number:</strong> <span id="flight-num"></span>
+      </div>
+      <div class="info-row">
+        <strong>Departure Airport:</strong> <span id="departure-airport"></span>
+      </div>
+      <div class="info-row">
+        <strong>Arrival Airport:</strong> <span id="arrival-airport"></span>
+      </div>
+      <div class="info-row">
+        <strong>Status:</strong> <span id="flight-status"></span>
+      </div>
+      <div class="info-row">
+        <strong>Scheduled Departure:</strong> <span id="departure-time"></span>
+      </div>
+      <div class="info-row">
+        <strong>Scheduled Arrival:</strong> <span id="arrival-time"></span>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
