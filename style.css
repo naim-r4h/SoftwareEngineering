@@ -1,0 +1,30 @@
+/* 
+  Basic reset and body styling
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* 
+    Header (logo + title)
+*/
+.header {
+display: flex;
+align-items: center;
+background-color: #007bff;
+color: #fff;
+padding: 15px;
+}
+
+.header .airplane-icon {
+width: 40px;
+height: 40px;
+margin-right: 10px;
+}
+
+.header h1 {
+font-weight: 600;
+font-size: 1.6rem;
+}
