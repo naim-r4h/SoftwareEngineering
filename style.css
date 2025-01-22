@@ -39,3 +39,52 @@ margin-right: 10px;
 font-weight: 600;
 font-size: 1.6rem;
 }
+
+/* 
+    Container for search
+  */
+  .container {
+    width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* 
+    Flight form styling
+  */
+  .flight-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .flight-form label {
+    font-weight: bold;
+  }
+  
+  .flight-form input[type="text"] {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 1rem;
+  }
+  
+  .btn-search {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-search:hover {
+    background: #0056b3;
+  }
