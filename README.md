@@ -26,3 +26,15 @@ Link to Prototype: https://www.figma.com/design/bsn7uvvFhSaIzZEHAXLPDA/Untitled?
 
 Link to MS Form: https://forms.office.com/r/ZGEJpFCApa
 
+## Code coverage
+
+Code coverage measures how much of my source code is actually executed during testing. It gives an indication of how many sections of my code are 'covered' (run) through by my tests and how many sections aren't. Coverage, at least, when I ran it, covered the following aspects:
+* Statements: The percentage of executable statements in the code that were run during the tests
+* Branched: The percentage of conditional branches.
+* Lines: The number of individual lines of code which were executed.
+
+The coverage report for this project, shows that 28% of statements, 28% of branches, 40% of functions, and 28% of lines are covered by the existing test suite. More specifically, lines 39-99 in script.js are not tested, which corresponds to a big part of the main logic of the application, including API fetching and UI updates.
+
+![image](https://github.com/user-attachments/assets/31319612-4866-44ae-85e4-020908c60f9d)
+
+This low coverage would suggest that, while the validation and parts of the API logic are tested, key areas-such as how the application handles  errors, or dynamically updating the DOM are not tested. These areas should be improved with more tests to make the application more robust and reliable, making sure the app behaves correctly under as many scenarios as possible.
