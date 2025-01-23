@@ -26,6 +26,27 @@ Link to Prototype: https://www.figma.com/design/bsn7uvvFhSaIzZEHAXLPDA/Untitled?
 
 Link to MS Form: https://forms.office.com/r/ZGEJpFCApa
 
+## Project Management
+
+The project began with the creation of a Project Charter, which I roughly created to outline the goals, deliverables, scope, and key stakeholders. In this step, the Product Owner (me) gathers requirements, for example, input validation, integration with AviationStack API, and clean UI. I grouped tasks with high-level functionality into certain categories to be populated into the backlog such as:
+* Input validation (Regex for flight numbers).
+* Real-time flight information API integration.
+* UI and UX design (airplane icon on a sky-themed background).
+* Jest test configuration for API and validation functions.
+Each of these features is broken down into smaller, actionable issues, which are then ordered and put on the Kanban board. The purpose of the board is to show the workflow with the columns 'To Do', the tasks yet to be started. Then 'In Progress', tasks currently being worked on. Thirdly, 'in review', tasks in testing or code review. Finally, 'done', which include completed tasks.
+
+I tried to ensure work-in-progress task limits were set to allow no more than 2-3 activities to be underway at any one time to avoid bottlenecks and maintain concentration. Also, it allows to view the speed of progress, and how components link and feed into each other. GitHub Projects helped a lot in this regard, with limits enabled to prevent overloading and ensuring a consitent, clear workflow, able to easily visualise how tasks and sub-tasks are completed and move across the board. 
+
+Furthermore, I created a risk register to identify potential issues that could arise, allowing for anticipation and planning different solutions.
+
+| Risk                          | Likelihood | Impact | Mitigation Strategy                                                     |
+|-------------------------------|------------|--------|--------------------------------------------------------------------------|
+| API service downtime          | Medium     | High   | Implement error handling and display fallback messages to users.         |
+| Invalid or malformed user inputs | High    | Medium | Validate inputs with regex before sending API requests.                  |
+| Design inconsistencies across browsers | Medium | Low | Test and tweak the app on multiple browsers.                      |
+
+Agile's incremental approach allowed the app to be developed feature by feature—starting with basic UI creation, input validation, followed by API integration, and while simultaneously integrating testing and feedback at different stages. This flexibility ensured that any issues or changes in requirements were addressed promptly without disrupting the entire project. Unlike the Waterfall methodology, which follows a rigid, sequential process, Agile allowed for overlapping phases (e.g., testing alongside development), reducing the risk of delivering a product that didn't meet user expectations. I was able to focus on new tasks without completing the initial draft, taking into account feedback like logos, themes, etc., allowing the UI design to evolve quickly and avoid time-wasting.
+
 ## Code coverage
 
 Code coverage measures how much of my source code is actually executed during testing. It gives an indication of how many sections of my code are 'covered' (run) through by my tests and how many sections aren't. Coverage, at least, when I ran it, covered the following aspects:
