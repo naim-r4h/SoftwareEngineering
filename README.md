@@ -147,3 +147,11 @@ The coverage report for this project, shows that 28% of statements, 28% of branc
 ![image](https://github.com/user-attachments/assets/31319612-4866-44ae-85e4-020908c60f9d)
 
 This low coverage would suggest that, while the validation and parts of the API logic are tested, key areas-such as how the application handles  errors, or dynamically updating the DOM are not tested. These areas should be improved with more tests to make the application more robust and reliable, making sure the app behaves correctly under as many scenarios as possible.
+
+## Lighthouse Audit
+
+Lighthouse is an open-source tool provided by Google used for auditing web pages in matters of Performance, Accessibility, Best Practices, and SEO. It provides a comprehensive overview of how well a website performs in these areas,. Each category is scored out of 100, with higher scores meaning better optimisation. Lighthouse assesses parameters such as load speed, mobile-friendliness, usability, and adherence to state-of-the-art development standards.
+
+![image](https://github.com/user-attachments/assets/ecca160f-7a6e-442f-bab3-d8480f2991d7)
+
+In the above report, my website did great in Performance, which got 94 - the page loaded really fast. An Accessibility score of 92 means that most items are friendly for use and accessible; minor areas may include alt text for images or increasing color contrast. A Best Practices score of 96 signifies good security and web development practices with improvement only through small optimisations. Lastly, the SEO score is 83, which is quite good to show that the website is search-engine friendly, but a little more can be added, like a meta description or schema, to further enhance visibility. Overall, the site is well-built, functional, and optimised; it just needs a few tweaks to perfection.
