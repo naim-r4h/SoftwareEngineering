@@ -1,7 +1,7 @@
 // script.js
 
 const API_KEY = "da41f9a7c325d89f85abc9affe2a7173";
-const BASE_URL = "http://api.aviationstack.com/v1/flights";
+const BASE_URL = "https://api.aviationstack.com/v1/flights";
 
 /**
  * Validate that flight number is 2 letters followed by 1-4 digits (e.g., BA304).
