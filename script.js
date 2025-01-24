@@ -1,6 +1,6 @@
 // script.js
 
-const API_KEY = "da41f9a7c325d89f85abc9affe2a7173";
+const API_KEY = "67ec968bd9f570148977f23ebc6fe033";
 const BASE_URL = "https://api.aviationstack.com/v1/flights";
 
 /**
