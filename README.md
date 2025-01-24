@@ -33,7 +33,10 @@ The project began with the creation of a Project Charter, which I roughly create
 * Real-time flight information API integration.
 * UI and UX design (airplane icon on a sky-themed background).
 * Jest test configuration for API and validation functions.
-Each of these features is broken down into smaller, actionable issues, which are then ordered and put on the Kanban board. The purpose of the board is to show the workflow with the columns 'To Do', the tasks yet to be started. Then 'In Progress', tasks currently being worked on. Thirdly, 'in review', tasks in testing or code review. Finally, 'done', which include completed tasks.
+Each of these features is broken down into smaller, actionable issues, which are then ordered and put on the Kanban board. The purpose of the board is to show the workflow with the columns 'To Do', the tasks yet to be started. Then 'In Progress', tasks currently being worked on. Thirdly, 'in review', tasks in testing or code review. Finally, 'done', which include completed tasks. See the KanBan board below as a reference:
+
+![KanBan 2](https://github.com/user-attachments/assets/8bb9241c-93ef-4363-9503-434371e54a9b)
+
 
 I tried to ensure work-in-progress task limits were set to allow no more than 2-3 activities to be underway at any one time to avoid bottlenecks and maintain concentration. Also, it allows to view the speed of progress, and how components link and feed into each other. GitHub Projects helped a lot in this regard, with limits enabled to prevent overloading and ensuring a consitent, clear workflow, able to easily visualise how tasks and sub-tasks are completed and move across the board. 
 
@@ -47,7 +50,7 @@ Furthermore, I created a risk register to identify potential issues that could a
 
 Agile's incremental approach allowed the app to be developed feature by feature—starting with basic UI creation, input validation, followed by API integration, and while simultaneously integrating testing and feedback at different stages. This flexibility ensured that any issues or changes in requirements were addressed promptly without disrupting the entire project. Unlike the Waterfall methodology, which follows a rigid, sequential process, Agile allowed for overlapping phases (e.g., testing alongside development), reducing the risk of delivering a product that didn't meet user expectations. I was able to focus on new tasks without completing the initial draft, taking into account feedback like logos, themes, etc., allowing the UI design to evolve quickly and avoid time-wasting.
 
-The first sprint included the development of a basic template, defining the structure of the container, and adding placeholders for the header, search form, and result section. This followed design principles such as simplicity and modularity to enable scalability when adding new features. The second sprint focussed more on the functionality side of things, creating javascript and testing modules to bring the app to life.
+The first sprint included the development of a basic template, defining the structure of the container, and adding placeholders for the header, search form, and result section. This followed design principles such as simplicity and modularity to enable scalability when adding new features. The second sprint focussed more on the functionality side of things, creating javascript and testing modules to bring the app to life
 
 In a sequence of planning and execution, components were incrementally added: the addition of a search box and the logic for handling errors. The functions validate the inputs for certain set criteria, reflecting risk mitigation practices in grace handling of invalid data. In the implementation stage, the features were adapted to meet the requirements of the project by integrating the AviationStack API. The critical element of the Monitoring and Control phase was testing, used with unit tests in Jest to verify input validation and API integration; this simulates edge cases to handle errors before deployment.
 
