@@ -1,6 +1,4 @@
-/* 
-  Basic reset and body styling
-*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +9,7 @@ body {
   font-family: 'Trebuchet MS', Arial, sans-serif;
   /* Use the uploaded image as the background */
   background: url('assets/sky-background.jpeg') no-repeat center center fixed;
-  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-size: cover; /* Ensures the image covers the entire app */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -119,9 +117,6 @@ body {
   font-size: 1rem;
 }
 
-/* 
-  Utility class
-*/
 .hidden {
   display: none;
 }
